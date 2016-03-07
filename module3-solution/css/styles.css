@@ -51,8 +51,17 @@ h1{
 	font-size: 1.2em;
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+	.item{
+		margin: 0 5px 30px 5px;
+	}
+}
 
 @media (max-width: 767px){
+
+	.item{
+		margin: 0 auto 30px auto;
+	}
 
 	#collapsable-nav{
 		background: lightyellow;
